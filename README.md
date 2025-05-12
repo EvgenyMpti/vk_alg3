@@ -47,3 +47,25 @@
 [==========] 5 tests from 1 test suite ran. (3 ms total)
 [  PASSED  ] 5 tests.
 ```
+
+## part 2
+```
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from PrefixTest
+[ RUN      ] PrefixTest.MaxSum
+[       OK ] PrefixTest.MaxSum (0 ms)
+[ RUN      ] PrefixTest.MaxLen
+[       OK ] PrefixTest.MaxLen (0 ms)
+[ RUN      ] PrefixTest.MaxLenEq
+[       OK ] PrefixTest.MaxLenEq (0 ms)
+[ RUN      ] PrefixTest.PivotIndex
+[       OK ] PrefixTest.PivotIndex (0 ms)
+[ RUN      ] PrefixTest.CanMakeValid
+[       OK ] PrefixTest.CanMakeValid (0 ms)
+[----------] 5 tests from PrefixTest (1 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (7 ms total)
+[  PASSED  ] 5 tests.
+```
