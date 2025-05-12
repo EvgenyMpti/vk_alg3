@@ -118,7 +118,6 @@ bool canMakeValid(const std::string& s, int k) {
         }
     }
 
-    // эта проверка не гарантирует валидность - ")("
     int min_del = balance + extra_closed; // мин кол-во удалений
     return min_del <= k;
 }
